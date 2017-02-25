@@ -1,0 +1,26 @@
+
+import statistics
+print ('write your numbers divided by comma here: ')
+
+
+numbers=input()
+x=numbers.split(',')
+x=list(map(int,x))
+length=len(x)
+
+
+min(x)
+x.remove(min(x))
+
+min(x)
+x.remove(min(x))
+
+max(x)
+x.remove(max(x))
+
+max(x)
+x.remove(max(x))
+
+standarddeviation=statistics.stdev(x)
+
+print(standarddeviation)
