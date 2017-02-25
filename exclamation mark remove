@@ -1,0 +1,4 @@
+sentence=input('write a sentence here with exclamation marks: ')
+count=sentence.count('!')-1
+sentence=sentence.replace('!','',count)
+print (sentence)
